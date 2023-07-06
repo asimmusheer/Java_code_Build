@@ -38,13 +38,13 @@
 		<tag>HEAD</tag>
 	</scm>
 
-        <distributionManagement>
-  		<repository>
-    		<id>java-devops-Java-devops</id>
-    		<name>java-devops-Java-devops</name>
-    		<url>https://java-devops-565381047833.d.codeartifact.ap-southeast-2.amazonaws.com/maven/Java-devops/</url>
-  		</repository>
-	</distributionManagement>
+       <distributionManagement>
+              <repository>
+              <id>jfrog-jfrog</id>
+              <name>jfrog-jfrog</name>
+              <url>https://jfrog-588369067852.d.codeartifact.ap-south-1.amazonaws.com/maven/jfrog/</url>
+              </repository>
+       </distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
