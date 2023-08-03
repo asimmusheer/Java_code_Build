@@ -39,12 +39,13 @@ pipeline {
         stage('Deploy') { 
             steps {
                 
-                sh 'mvn deploy -DskipTests'
+
+              println('Hello World')
             }
         }
         stage('release') { 
             steps {
-                sh 'mvn release -DskipTests -DskipTests'
+                println('Hello World')
             }
         }
     }
